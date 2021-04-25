@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    min-height: 70px;
+    line-height: 50px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    line-height: 50px;
+}
+
+ul.navbar-nav.mr-auto {
+    line-height: normal;
+}
+
+i.fa {
+    vertical-align: middle;
+    opacity: 0.8;
+}
+
+i.fa.fa-phone-square.fa-3x {
+    font-size: 2.8em;
+    margin-top: 2px;
+}
+
+i.fa.fa-whatsapp.fa-3x {
+    font-size: 2.7em;
+}
+
+button.navbar-toggler {
+    margin-right: 15px;
+}
+
+div#navbarSupportedContent {
+    margin-left: 40px;
+}
+
+#phone_icon {
+
+}
+
+#main_content {
+    align: center;
+    width: 100%;
+}
+
+#goods_categories {
+  width: 100%;
+  position: relative;
+  /*border: 2px solid #3F0C1F;*/
+  overflow: hidden;
+}
+
+#goods_categories > img{
+  width: 100%;
+  height: 100%;
+}
+
+#goods_categories > span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+a.navbar-brand {
+    margin-left: 40px;
+}
+
+#links_bar > a {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+
+@media (min-width: 992px) {
+  #links_bar {
+    right: 50px;
+    position: absolute;
+    height: 60px;
+  }
+}
+
+#category_header {
+  text-align: center;
+}
